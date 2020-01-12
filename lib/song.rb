@@ -18,6 +18,8 @@ class Song
 
   def self.new_by_name(name)
     @name = name
-    self.create
+    song = Song.new
+    @all << song
+    song.name
   end
 end
