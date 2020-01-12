@@ -46,7 +46,7 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    filename.slice(0..filename.length)
+    filename.slice(0..filename.length - 10)
     p filename
     song_array = filename.split(" - ").join(" ")
     p song_array
