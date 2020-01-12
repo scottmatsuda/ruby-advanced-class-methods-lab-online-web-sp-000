@@ -44,4 +44,10 @@ class Song
   def self.alphabetical
     @@all.sort_by {|jingle| jingle.name}
   end
+  
+  def self.new_from_filename(filename)
+    song_array = filename.join("-")
+    p song_array
+    
+  end
 end
