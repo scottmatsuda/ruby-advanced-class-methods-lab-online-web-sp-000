@@ -46,6 +46,7 @@ class Song
   end
   
   def self.new_from_filename(filename)
+    filename.truncate
     song_array = filename.split(" - ").join(" ")
     p song_array
     
