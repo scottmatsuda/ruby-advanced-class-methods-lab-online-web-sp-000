@@ -20,7 +20,6 @@ class Song
     @name = name
     @artist_name = artist_name
     @@all << self
-    self
   end
 
 end
