@@ -55,11 +55,11 @@ class Song
   end
   
   def self.create_from_filename(filename)
-    slice = filename.slice(0..filename.length - 5)
-    song_data = slice.split(" - ")
-    song = Song.new
-    song.artist_name = song_data[0]
-    song.name = song_data[1]
-    song.save
+    # slice = filename.slice(0..filename.length - 5)
+    # song_data = slice.split(" - ")
+    # song = Song.new
+    # song.artist_name = song_data[0]
+    # song.name = song_data[1]
+    # song.save
   end
 end
