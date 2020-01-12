@@ -43,4 +43,5 @@ class Song
   
   def self.alphabetical
     @@all.sort_by {|jingle| jingle.name}
+  end
 end
